@@ -9,3 +9,22 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.hero {
+  border: 1px solid black;
+  height: 99dvh;
+}
+
+.hero p {
+  font-size: larger;
+  font-weight: 500;
+}
+
+.icons {
+  position: absolute;
+  bottom: 0;
+  width: 99%;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+}
