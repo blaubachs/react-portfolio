@@ -17,52 +17,12 @@ ul {
   list-style-type: none;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
-  background-color: var(--dark-grey);
-  height: 60px;
-}
-
-nav ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 300px;
-}
-
 body {
   background-color: var(--dark-grey);
   color: var(--lighter);
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 1px solid black;
-  height: 99dvh;
-}
-
-.header-avatar {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  width: fit-content;
-  top: 500px;
-}
-
-.hero p {
-  color: var(--font-header-secondary);
-  width: 60%;
-  text-align: center;
-  font-size: 150%;
-  font-weight: 600;
 }
 
 .icons {
