@@ -3,8 +3,7 @@ import React from "react";
 // import me from "../assets/img/me.jpg";
 import "../assets/css/Header.css";
 import resume from "../assets/img/Ben_Laubach.pdf";
-import linkedInIcon from "../assets/img/linkedinicon.png";
-import githubIcon from "../assets/img/githubicon.png";
+
 export default function Header() {
   return (
     <header className="hero">
@@ -26,18 +25,6 @@ export default function Header() {
           Full-stack web developer, musician, and technologist with a passion
           for creative problem solving and furthering my knowledge.
         </p>
-      </div>
-      <div className="icons">
-        <a href="https://github.com/blaubachs" rel="noreferrer" target="_blank">
-          <img alt="github logo" height="50" src={githubIcon} />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/blaubachs/"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <img alt="linkedIn" height="50" src={linkedInIcon} />
-        </a>
       </div>
     </header>
   );

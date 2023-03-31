@@ -20,7 +20,7 @@ nav ul {
   flex-direction: column;
   align-items: center;
   border: 1px solid black;
-  height: 99dvh;
+  height: 1200px;
 }
 
 .header-avatar {
