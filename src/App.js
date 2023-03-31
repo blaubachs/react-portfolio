@@ -38,6 +38,7 @@ function App() {
     <div className="App">
       <Header />
       <section className="work">
+        <h1>My Work</h1>
         {workArr.map((item) => (
           <FadeIn>
             <WorkCard

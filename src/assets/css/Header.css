@@ -20,6 +20,23 @@ nav ul {
   width: 300px;
 }
 
+.nav-list {
+  margin-top: 3rem;
+  font-size: 140%;
+}
+
+.nav-list li {
+  padding-right: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.nav-list-item:hover {
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+  color: var(--light-green);
+  /* text-shadow: 0 0 3px var(--dark-green); */
+}
+
 .hero {
   display: flex;
   flex-direction: column;

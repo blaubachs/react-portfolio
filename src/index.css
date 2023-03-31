@@ -40,3 +40,9 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+
+.work h1 {
+  font-size: 300%;
+  text-align: center;
+  color: var(--light-green);
+}

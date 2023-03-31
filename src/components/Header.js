@@ -9,13 +9,15 @@ export default function Header() {
     <header className="hero">
       <nav>
         <ul className="nav-list">
-          <li>about</li>
+          <li className="nav-list-item">about</li>
           <li>
-            <a href={resume} download>
+            <a className="nav-list-item" href={resume} download>
               resume
             </a>
           </li>
-          <li id="contact">contact</li>
+          <li className="nav-list-item" id="contact">
+            contact
+          </li>
         </ul>
       </nav>
       <h1 id="name">Ben Laubach</h1>
