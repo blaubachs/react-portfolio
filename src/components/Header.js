@@ -12,7 +12,7 @@ export default function Header() {
           <li>about</li>
           <li>
             <a href={resume} download>
-              Resume
+              resume
             </a>
           </li>
           <li id="contact">contact</li>
