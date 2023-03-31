@@ -32,9 +32,8 @@ nav ul {
 }
 
 .nav-list-item:hover {
-  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+  transition: ease-in-out 0.3s;
   color: var(--light-green);
-  /* text-shadow: 0 0 3px var(--dark-green); */
 }
 
 .hero {
