@@ -1,6 +1,7 @@
 import "./App.css";
 import Avatar from "@mui/material/Avatar";
 import me from "./assets/img/me.jpg";
+import resume from "./assets/img/Ben_Laubach.pdf";
 import linkedInIcon from "./assets/img/linkedinicon.png";
 import githubIcon from "./assets/img/githubicon.png";
 import Work from "./components/Work";
@@ -37,6 +38,17 @@ function App() {
   return (
     <div className="App">
       <header className="hero">
+        <nav>
+          <ul className="nav-list">
+            <li>about</li>
+            <li>
+              <a href={resume} download>
+                Resume
+              </a>
+            </li>
+            <li id="contact">contact</li>
+          </ul>
+        </nav>
         <h1>developing.this</h1>
         <div className="header-avatar">
           <Avatar alt="Ben Laubach" src={me} sx={{ width: 300, height: 300 }} />

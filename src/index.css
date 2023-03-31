@@ -6,10 +6,31 @@
   --light-green: #85ab88;
   --light-pink: #f0d2d1;
   --lighter: #fcf1ed;
+  --font-header-secondary: #979797;
 }
 
 * {
   font-family: "FOT-Rodin Pro", monospace;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: var(--dark-grey);
+  height: 60px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
 }
 
 body {
@@ -37,10 +58,11 @@ body {
 
 .hero p {
   position: relative;
+  color: var(--font-header-secondary);
   width: 500px;
   top: 30px;
   font-size: 150%;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .icons {
