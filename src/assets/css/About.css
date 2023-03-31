@@ -1,11 +1,36 @@
+#about-me h1 {
+  text-align: left;
+  font-size: 3rem;
+  padding-left: 3rem;
+}
+
+#about-me p {
+  width: 50%;
+  text-align: left;
+  font-size: 1.5rem;
+  padding-left: 3rem;
+}
+
 #about-me {
   display: flex;
   flex-direction: column;
   background-color: var(--light-green);
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 #skills-div {
   display: flex;
   flex-direction: row;
-  background-color: var(--light-green);
+}
+
+#avatar {
+  padding-right: 5rem;
 }
