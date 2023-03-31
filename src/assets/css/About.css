@@ -1,0 +1,11 @@
+#about-me {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light-green);
+}
+
+#skills-div {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--light-green);
+}

@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
+import About from "./components/About";
 import linkedInIcon from "./assets/img/linkedinicon.png";
 import githubIcon from "./assets/img/githubicon.png";
 import WorkCard from "./components/WorkCard";
@@ -50,15 +51,6 @@ function App() {
             />
           </FadeIn>
         ))}
-        {/* {workArr.map((item) => (
-          <Work
-            title={item.title}
-            alt={item.alt}
-            src={item.src}
-            link={item.link}
-            description={item.description}
-          />
-        ))} */}
       </section>
 
       <div className="icons">
@@ -73,6 +65,7 @@ function App() {
           <img alt="linkedIn" height="50" src={linkedInIcon} />
         </a>
       </div>
+      <About />
     </div>
   );
 }
