@@ -51,16 +51,16 @@ body {
 
 .header-avatar {
   display: flex;
+  justify-content: center;
   position: relative;
   width: fit-content;
-  top: 300px;
+  top: 500px;
 }
 
 .hero p {
-  position: relative;
   color: var(--font-header-secondary);
-  width: 500px;
-  top: 30px;
+  width: 60%;
+  text-align: center;
   font-size: 150%;
   font-weight: 600;
 }
