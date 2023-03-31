@@ -5,24 +5,25 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import CAT from "../assets/img/cattention.png";
 
-export default function Work() {
+export default function Work({ title, alt, src, link, description }) {
+  // todo: have this accept props and automatically generate cards for work
   return (
     <div>
       <Card sx={{ width: 600, height: 500 }}>
-        <CardMedia sx={{ height: 300 }} image={CAT} title="CATtention" />
+        <CardMedia sx={{ height: 300 }} image={src} title={title} />
         <CardContent>
           <Typography gutterBottom variant="h4" component="div">
-            CATtention
+            {title}
           </Typography>
           <Typography variant="body1" color="text.secondary">
-            Full stack productivity app featuring socket.io and React.
+            {description}
           </Typography>
         </CardContent>
         <CardActions>
-          <Button size="small">Share</Button>
-          <Button size="small">Learn More</Button>
+          <a href={link} target="_blank" rel="noreferrer">
+            <Button size="small">Check It Out</Button>
+          </a>
         </CardActions>
       </Card>
     </div>

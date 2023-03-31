@@ -1,10 +1,20 @@
 @import url(https://fonts.cdnfonts.com/css/fot-rodin-pro);
 
+:root {
+  --dark-grey: #3d3d3b;
+  --dark-green: #486e42;
+  --light-green: #85ab88;
+  --light-pink: #f0d2d1;
+  --lighter: #fcf1ed;
+}
+
 * {
   font-family: "FOT-Rodin Pro", monospace;
 }
 
 body {
+  background-color: var(--dark-grey);
+  color: var(--lighter);
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -43,6 +53,7 @@ body {
 }
 
 .work {
+  margin-top: 15px;
   display: flex;
   justify-content: center;
 }
