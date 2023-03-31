@@ -18,7 +18,7 @@ export default function About() {
           <Avatar alt="Ben Laubach" src={me} sx={{ width: 300, height: 300 }} />
         </div>
       </div>
-      <h2>My skills...</h2>
+      <h2 id="skills-header">My skills...</h2>
       <div className="row">
         <div id="skills-div">
           <ul className="skills-list">
