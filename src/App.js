@@ -2,7 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import linkedInIcon from "./assets/img/linkedinicon.png";
 import githubIcon from "./assets/img/githubicon.png";
-import Work from "./components/Work";
+import WorkCard from "./components/WorkCard";
 import CAT from "./assets/img/cattention.png";
 import BGP from "./assets/img/Board-Game-Party.png";
 import WTA from "./assets/img/wta-home.jpg";
@@ -37,6 +37,13 @@ function App() {
     <div className="App">
       <Header />
       <section className="work">
+        <WorkCard
+          title={workArr[0].title}
+          src={workArr[0].src}
+          alt={workArr[0].alt}
+          link={workArr[0].link}
+          description={workArr[0].description}
+        />
         {/* {workArr.map((item) => (
           <Work
             title={item.title}
