@@ -8,14 +8,25 @@ export default function Header() {
     <header className="hero">
       <nav>
         <ul className="nav-list">
-          <li className="nav-list-item">about</li>
+          <li>
+            <a className="nav-list-item" href="#about-me">
+              about
+            </a>
+          </li>
           <li>
             <a className="nav-list-item" href={resume} download>
               resume
             </a>
           </li>
-          <li className="nav-list-item" id="contact">
-            contact
+          <li id="contact">
+            <a
+              className="nav-list-item"
+              href="https://calendly.com/blaubachs"
+              target="_blank"
+              rel="noreferrer"
+            >
+              contact
+            </a>
           </li>
         </ul>
       </nav>
