@@ -8,7 +8,7 @@ import BGP from "./assets/img/Board-Game-Party.png";
 import WTA from "./assets/img/wta-home.jpg";
 import FadeIn from "./components/FadeIn";
 function App() {
-  // todo: workArr for necessary info for work cards
+  // workArr for necessary info for work cards
   let workArr = [
     {
       title: "CATtention",

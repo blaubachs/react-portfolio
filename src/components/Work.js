@@ -7,7 +7,6 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
 export default function Work({ title, alt, src, link, description }) {
-  // todo: have this accept props and automatically generate cards for work
   return (
     <div>
       <Card sx={{ width: 600, height: 500 }}>
