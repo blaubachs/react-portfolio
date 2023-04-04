@@ -38,5 +38,15 @@
 
 #clicked .work-card-image img {
   transition: all ease-in 300ms;
-  width: 90%;
+  width: 100%;
+}
+
+#clicked .work-card-content {
+  position: static;
+  margin-bottom: 3rem;
+}
+
+#clicked .work-card-content h2 {
+  position: static;
+  margin-top: 0;
 }

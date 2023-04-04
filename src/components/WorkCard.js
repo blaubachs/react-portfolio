@@ -4,7 +4,7 @@ import "../assets/css/WorkCard.css";
 
 export default function WorkCard({ src, title, description, alt }) {
   // need to find a way to expand this card on click...
-  const [cardClicked, setCardClicked] = useState(false);
+  const [cardClicked, setCardClicked] = useState(true);
 
   const handleCardExpand = (e) => {
     setCardClicked(!cardClicked);

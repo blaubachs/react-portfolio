@@ -1,4 +1,6 @@
 .fade-in-section {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   width: 100%;
   opacity: 0;
   transform: translateY(20vh);
