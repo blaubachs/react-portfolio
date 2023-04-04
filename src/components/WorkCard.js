@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ExtraWorkContent from "./ExtraWorkContent";
 import "../assets/css/WorkCard.css";
 
 export default function WorkCard({ src, title, description, alt }) {
@@ -18,6 +19,7 @@ export default function WorkCard({ src, title, description, alt }) {
       <div className="work-card-image">
         <img src={src} alt={alt} />
       </div>
+      {cardClicked && <ExtraWorkContent />}
       <div className="work-card-content">
         <h2>{title}</h2>
         <p>{description}</p>
