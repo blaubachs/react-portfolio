@@ -1,8 +1,8 @@
-#extra-card-content {
+.extra-card-content {
   margin: 0;
   padding: 0;
   height: 400px;
-  background-color: var(--light-green);
+  background: var(--light-green);
 }
 
 .extra-content-row {
