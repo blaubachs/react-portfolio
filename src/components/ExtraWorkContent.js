@@ -1,5 +1,4 @@
 import React from "react";
-import FadeIn from "./FadeIn";
 import "../assets/css/ExtraWorkContent.css";
 
 // these needs to accept props for each component
@@ -23,6 +22,9 @@ export default function ExtraWorkContent() {
           <h2>Process</h2>
           <p>Development process</p>
         </div>
+      </div>
+      <div className="extra-content-row">
+        <ul></ul>
       </div>
     </div>
   );
