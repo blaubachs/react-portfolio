@@ -22,7 +22,7 @@ export default function ExtraWorkContent({
       <div className="extra-content-row">
         <div className="extra-content-text">
           <h2>Problem</h2>
-          <p>{problem}</p>
+          <p id="problem-text">{problem}</p>
         </div>
         <div className="extra-content-text">
           <h2>Process</h2>

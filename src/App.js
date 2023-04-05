@@ -70,6 +70,8 @@ function App() {
               description={item.description}
               problem={item.problem}
               devProcess={item.devProcess}
+              timeFrame={item.timeFrame}
+              github={item.github}
               tech={item.tech}
               role={item.role}
             />
