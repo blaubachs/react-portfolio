@@ -20,7 +20,7 @@ function App() {
       description: "Full stack productivity app featuring socket.io and React.",
       problem:
         "CATtention is an app for users who struggle with attention, using the pomodoro technique, users can choose an amount of time to work, break, and have trivia questions during breaks. Users can work together, and earn new badges based on time worked.",
-      process: "",
+      devProcess: "",
       tech: ["Node.js", "MySQL", "Express", "Socket.io", "React"],
       role: "Project Manager / Backend Developer",
     },
@@ -35,7 +35,7 @@ function App() {
         "Front-end application to find board games based on the user's search criteria.",
       problem:
         "With the rise of technology, family and friend gatherings are becoming more and more dull, and detached. Board Game Party allows users to find a board game for their next gathering.",
-      process: "",
+      devProcess: "",
       tech: ["MaterialUI", "Board Game Atlas", "HTML", "CSS", "JavaScript"],
       role: "Project Manager / UI/UX",
     },
@@ -49,7 +49,7 @@ function App() {
       description: "Full-stack application that utilizes SQL and handlebars.",
       problem:
         "Beginners to holistic remedies can have a hard time finding plants to help with specific benefits. Wild Thorn Apothecary is a web app where a user can see plants curated by the developers to help the user more easily choose a plant.",
-      process: "",
+      devProcess: "",
       tech: ["MySQL", "Express", "Node.js", "Sessions"],
       role: "Project Manager",
     },
@@ -69,7 +69,7 @@ function App() {
               link={item.link}
               description={item.description}
               problem={item.problem}
-              process={item.process}
+              devProcess={item.devProcess}
               tech={item.tech}
               role={item.role}
             />

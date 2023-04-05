@@ -2,29 +2,39 @@ import React from "react";
 import "../assets/css/ExtraWorkContent.css";
 
 // these needs to accept props for each component
-export default function ExtraWorkContent() {
+export default function ExtraWorkContent({
+  role,
+  timeFrame,
+  problem,
+  devProcess,
+  tech,
+}) {
   return (
     <div className="extra-card-content">
       <div className="top-row">
         <h2 className="no-margin-top">Role</h2>
-        <p>Project Manager</p>
+        <p>{role}</p>
       </div>
       <div className="top-row">
         <h2 className="no-margin-top">Timeframe</h2>
-        <p>2 Weeks</p>
+        <p>{timeFrame}</p>
       </div>
       <div className="extra-content-row">
         <div className="extra-content-text">
           <h2>Problem</h2>
-          <p>Problem statement from presentation</p>
+          <p>{problem}</p>
         </div>
         <div className="extra-content-text">
           <h2>Process</h2>
-          <p>Development process</p>
+          <p>{devProcess}</p>
         </div>
       </div>
       <div className="extra-content-row">
-        <ul></ul>
+        <ul id="technologies-list">
+          {tech.map((item) => (
+            <li>{item}</li>
+          ))}
+        </ul>
       </div>
     </div>
   );
