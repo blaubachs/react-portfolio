@@ -4,3 +4,9 @@
   height: 400px;
   background-color: var(--light-green);
 }
+
+.extra-content-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
