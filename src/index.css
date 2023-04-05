@@ -37,3 +37,7 @@ body {
   text-align: center;
   color: var(--light-green);
 }
+
+.no-margin-top {
+  margin-top: 0;
+}

@@ -27,12 +27,13 @@
 }
 
 #clicked {
+  margin-right: 3rem;
   height: 800px;
 }
 
 #clicked .work-card-image {
   transition: all 300ms;
-  height: 500px;
+  height: 200px;
   overflow: hidden;
 }
 
@@ -44,9 +45,4 @@
 #clicked .work-card-content {
   position: static;
   margin-bottom: 3rem;
-}
-
-#clicked .work-card-content h2 {
-  position: static;
-  margin-top: 0;
 }

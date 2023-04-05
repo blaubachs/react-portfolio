@@ -21,7 +21,7 @@ export default function WorkCard({ src, title, description, alt }) {
       </div>
       {cardClicked && <ExtraWorkContent />}
       <div className="work-card-content">
-        <h2>{title}</h2>
+        <h2 className="no-margin-top">{title}</h2>
         <p>{description}</p>
       </div>
     </div>
