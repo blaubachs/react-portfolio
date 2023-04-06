@@ -14,7 +14,7 @@ export default function WorkCard({
   tech,
 }) {
   // need to find a way to expand this card on click...
-  const [cardClicked, setCardClicked] = useState(true);
+  const [cardClicked, setCardClicked] = useState(false);
 
   const handleCardExpand = (e) => {
     setCardClicked(!cardClicked);

@@ -9,10 +9,13 @@ export default function About() {
       <h1>About</h1>
       <div className="row">
         <p>
-          Here is s a bunch of random fake text that I am going to fill this
-          section with so that I may fill it up in the future with more
-          information about me that a future employer may want to see, whatever
-          this is for now, I really do be just writing though.
+          Coming from a background with production and some experience with
+          process engineering at my previous job, I realized I was seeking a
+          more rewarding field. With a passion for music, critical thinking, and
+          problem solving, I took the University of Washington's full-stack
+          coding bootcamp. This course was excellent in delivering the
+          fundamentals of web development to me, and currently I am seeking
+          employment in the industry to challenge myself to grow further.
         </p>
         <div id="avatar">
           <Avatar alt="Ben Laubach" src={me} sx={{ width: 300, height: 300 }} />
