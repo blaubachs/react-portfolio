@@ -12,6 +12,8 @@ export default function WorkCard({
   problem,
   devProcess,
   tech,
+  github,
+  link,
 }) {
   // need to find a way to expand this card on click...
   const [cardClicked, setCardClicked] = useState(false);
@@ -36,6 +38,8 @@ export default function WorkCard({
           problem={problem}
           devProcess={devProcess}
           tech={tech}
+          github={github}
+          link={link}
         />
       )}
       <div className="work-card-content">

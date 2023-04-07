@@ -1,5 +1,7 @@
 import React from "react";
 import "../assets/css/ExtraWorkContent.css";
+import githubImg from "../assets/img/smallgithubicon.png";
+import gotoImg from "../assets/img/gotobutton.png";
 
 // these needs to accept props for each component
 export default function ExtraWorkContent({
@@ -8,6 +10,8 @@ export default function ExtraWorkContent({
   problem,
   devProcess,
   tech,
+  github,
+  link,
 }) {
   return (
     <div className="extra-card-content">
@@ -35,6 +39,12 @@ export default function ExtraWorkContent({
             <li>{item}</li>
           ))}
         </ul>
+        <a href={github} target="_blank" rel="noreferrer">
+          <img className="link-icons" src={githubImg} alt="github" />
+        </a>
+        <a href={link} target="_blank" rel="noreferrer">
+          <img className="link-icons" src={gotoImg} alt="go to" />
+        </a>
       </div>
     </div>
   );
