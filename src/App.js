@@ -20,7 +20,8 @@ function App() {
       description: "Full stack productivity app featuring socket.io and React.",
       problem:
         "CATtention is an app for users who struggle with attention, using the pomodoro technique, users can choose an amount of time to work, break, and have trivia questions during breaks. Users can work together, and earn new badges based on time worked.",
-      devProcess: "",
+      devProcess:
+        "Utilizing a trello board with plugins for github, and slack, we were able to keep track of our progress. Daily standups were utilized to help give every team member a task for the day.",
       tech: ["Node.js", "MySQL", "Express", "Socket.io", "React"],
       role: "Project Manager / Backend Developer",
     },
@@ -35,7 +36,8 @@ function App() {
         "Front-end application to find board games based on the user's search criteria.",
       problem:
         "With the rise of technology, family and friend gatherings are becoming more and more dull, and detached. Board Game Party allows users to find a board game for their next gathering.",
-      devProcess: "",
+      devProcess:
+        "After brainstorming ideas, we decided to use the Board Game Atlas API to find board games. We used a github project to keep track of our progress, and a daily standup to keep each other accountable.",
       tech: ["MaterialUI", "Board Game Atlas", "HTML", "CSS", "JavaScript"],
       role: "Project Manager / UI/UX",
     },
@@ -49,7 +51,8 @@ function App() {
       description: "Full-stack application that utilizes SQL and handlebars.",
       problem:
         "Beginners to holistic remedies can have a hard time finding plants to help with specific benefits. Wild Thorn Apothecary is a web app where a user can see plants curated by the developers to help the user more easily choose a plant.",
-      devProcess: "",
+      devProcess:
+        "Using github issues and a github project, we were able to keep track of our progress. We used a daily standup to assign each group member a task for the day.",
       tech: ["MySQL", "Express", "Node.js", "Sessions"],
       role: "Project Manager",
     },
