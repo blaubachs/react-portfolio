@@ -37,6 +37,18 @@
   color: var(--dark-green);
 }
 
+#icon-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+}
+
+#link-icons {
+  width: 32px;
+  height: 32px;
+}
+
 #technologies-list {
   color: var(--dark-grey);
   font-size: large;

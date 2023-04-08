@@ -39,12 +39,14 @@ export default function ExtraWorkContent({
             <li>{item}</li>
           ))}
         </ul>
-        <a href={github} target="_blank" rel="noreferrer">
-          <img className="link-icons" src={githubImg} alt="github" />
-        </a>
-        <a href={link} target="_blank" rel="noreferrer">
-          <img className="link-icons" src={gotoImg} alt="go to" />
-        </a>
+        <div id="icon-container">
+          <a href={github} target="_blank" rel="noreferrer">
+            <img id="link-icons" src={githubImg} alt="github" />
+          </a>
+          <a href={link} target="_blank" rel="noreferrer">
+            <img id="link-icons" src={gotoImg} alt="go to" />
+          </a>
+        </div>
       </div>
     </div>
   );
