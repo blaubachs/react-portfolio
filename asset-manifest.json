@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.a0194ed2.css",
+    "main.js": "/react-portfolio/static/js/main.9eea38b4.js",
+    "static/media/me.jpg": "/react-portfolio/static/media/me.48830968de422ae6e7c4.jpg",
+    "static/media/Board-Game-Party.png": "/react-portfolio/static/media/Board-Game-Party.07e696e2bfa4ffd4b448.png",
+    "static/media/wta-home.jpg": "/react-portfolio/static/media/wta-home.78d94f20e3e8b75d9d34.jpg",
+    "static/media/cattention.png": "/react-portfolio/static/media/cattention.7c379110d7c2aa2fa15a.png",
+    "static/media/Ben_Laubach.pdf": "/react-portfolio/static/media/Ben_Laubach.701a1f5a5f2f46cc2219.pdf",
+    "index.html": "/react-portfolio/index.html",
+    "main.a0194ed2.css.map": "/react-portfolio/static/css/main.a0194ed2.css.map",
+    "main.9eea38b4.js.map": "/react-portfolio/static/js/main.9eea38b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0194ed2.css",
+    "static/js/main.9eea38b4.js"
+  ]
+}
