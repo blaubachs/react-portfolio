@@ -1,7 +1,7 @@
 .extra-card-content {
   margin: 0;
   padding: 0;
-  height: 450px;
+  height: auto;
   background: var(--light-green);
 }
 
@@ -65,4 +65,31 @@
 #problem-text {
   width: 55%;
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .top-row {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .extra-content-row {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+  }
+
+  #technologies-list {
+    width: 90%;
+  }
+
+  #problem-text {
+    width: 100%;
+  }
+
+  #icon-container {
+    width: 100%;
+  }
 }

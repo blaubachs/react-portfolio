@@ -46,3 +46,30 @@
   position: static;
   margin-bottom: 3rem;
 }
+
+@media screen and (max-width: 768px) {
+  .work-card {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+  }
+  .work-card-content {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  .work-card img {
+    width: 100%;
+  }
+
+  #clicked {
+    margin-right: 0;
+    height: 100%;
+  }
+  #clicked .work-card-image {
+    height: 200px;
+  }
+  #clicked .work-card-image img {
+    width: 100%;
+  }
+}
