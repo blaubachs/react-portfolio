@@ -62,3 +62,17 @@
 #avatar {
   padding-right: 5rem;
 }
+
+@media screen and (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+  #about-me p {
+    width: 100%;
+    font-size: medium;
+    padding-left: 1rem;
+  }
+  #avatar {
+    padding-right: 0;
+  }
+}

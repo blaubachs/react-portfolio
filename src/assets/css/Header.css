@@ -65,3 +65,29 @@ nav ul {
   position: absolute;
   top: 300px;
 }
+
+@media screen and (max-width: 768px) {
+  .nav-list li {
+    padding-right: 0;
+  }
+  nav {
+    padding: 0;
+  }
+  .hero {
+    height: 600px;
+  }
+  #name {
+    position: static;
+  }
+  .hero p {
+    position: relative;
+    bottom: 540px;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero p {
+    bottom: 600px;
+  }
+}

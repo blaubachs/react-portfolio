@@ -9,10 +9,10 @@ export default function About() {
       <h1>About</h1>
       <div className="row">
         <p>
-          Coming from a background with production and some experience with
-          process engineering at my previous job, I realized I was seeking a
-          more rewarding field. With a passion for music, critical thinking, and
-          problem solving, I took the University of Washington's full-stack
+          With a background in production and experience with process
+          engineering at my previous job, I realized I was seeking a more
+          rewarding field. With a passion for critical thinking, learning, and
+          problem solving, I enrolled the University of Washington's full-stack
           coding bootcamp. This course was excellent in delivering the
           fundamentals of web development to me, and currently I am seeking
           employment in the industry to challenge myself to grow further.

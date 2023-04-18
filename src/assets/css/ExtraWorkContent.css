@@ -93,3 +93,16 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 480px) {
+  #technologies-list {
+    margin-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline-start: 0px;
+  }
+
+  #technologies-list li {
+    margin-left: 5%;
+  }
+}
